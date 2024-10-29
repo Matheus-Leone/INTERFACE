@@ -5,16 +5,13 @@ Esta atividade é requisito da Avaliação Continuada 2
 ## 🚀 Começando
 
 
-*Crie uma classe estática chamada ConversorUnidades que deve conter os seguintes métodos:
+*Crie uma interface chamada Funcionario que defina um método calcularBonus(). Em seguida, crie duas classes que implementem essa interface:
 
-*celsiusParaFahrenheit(double celsius): converte uma temperatura em Celsius para Fahrenheit.
+*FuncionarioAssalariado: o bônus é um valor fixo de R$ 5.000,00.
 
-*quilometrosParaMilhas(double quilometros): converte uma distância em quilômetros para milhas.
+*FuncionarioHorista: o bônus é calculado como 10% do total anual recebido pelo funcionário.
 
-*gramasParaLibras(double gramas): converte uma massa em gramas para libras.
-
-*Após criar a classe, implemente uma classe principal (Main) que chame cada um dos métodos da classe ConversorUnidades e exiba o resultado no console.
-
+*Após criar as classes, implemente uma classe principal (Main) que crie instâncias dos dois tipos de funcionários e invoque o método calcularBonus() para mostrar o valor do bônus de cada funcionário.
 
 [Diagrama de Classes do Exercício Acima]
 
